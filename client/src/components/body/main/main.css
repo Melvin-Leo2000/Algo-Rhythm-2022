@@ -1,0 +1,127 @@
+.greeting{
+    padding-top: 2em;
+    color: black;
+    padding-left: 2.5em;
+    font-size: 30px;
+}
+
+
+
+.main-trends{
+    padding-top: 0.5em;
+    font-size: 20px;
+    padding-left: 3.8em;
+}
+
+.news-section{
+    padding-top: 2em;
+    height: 100%;
+    padding-left: 4em;
+}
+
+.snaps{
+    padding-bottom: 2em;
+    padding-left: 1%;
+}
+.snaps p{
+    font-size: 20px;
+}
+
+.market{
+    padding-left: 4.5%;
+}
+
+.main-button-group{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.form-groups{
+    display: flex;
+    padding-bottom: 2em;
+    padding-left: 40px;
+}
+
+.market-indices{
+    padding-top: 2em;
+    padding-left: 3.5em;
+}
+
+.market-benchmark{
+    padding-bottom: 2em;
+    padding-left: 4.3em;
+    font-size: 20px;
+}
+
+.main-button{
+    text-align: left;
+    padding-left: 1.5em;
+    line-height: 1.5em;
+    font-size: 18px;
+    width: 280px;
+    height: 85px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+
+
+.main-button:hover{
+    background-color: #E8F5F7;
+}
+
+.main-button:active {
+    transform: scale(0.98);
+}
+
+.main-button-pad{
+    padding-top: 0.5em;
+}
+
+
+.main-tech-news{
+    color: black;
+    padding-bottom: 2em;
+}
+
+
+
+.tech-post-date{
+    color: gray;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 1.6em;
+    padding-bottom: 0.5em;
+}
+
+.tech-post-source{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.tech-news-section:hover{
+    background-color: #E8F5F7;
+}
+
+.tech-news-section{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.tech-news-h2{
+    padding-left: 3.5em;
+}
+
+.breakingnews{
+    font-size: 20px;
+    padding-left: 4.2em;
+    padding-bottom: 1em;
+}

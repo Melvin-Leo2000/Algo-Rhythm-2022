@@ -1,0 +1,25 @@
+.active_page h1{
+    position: relative; top: 175px; left: 40px;
+    color: white;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.active_page h2{
+    width: 500px;
+    position: relative; top: 200px; left: 740px;
+    color: white;
+    font-family: "Poppins";
+    text-align: center;
+    
+}
+
+.successful{
+    position: relative; left: 700px; top:200px;
+    width:30%;
+    height:45%;
+}
+.verierror{
+    position: relative; top: -150px; left: 850px;
+    color: #302A2A;
+}

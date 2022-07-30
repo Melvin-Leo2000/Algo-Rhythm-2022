@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcea4220.css",
+    "main.js": "/static/js/main.8efc0fe7.js",
+    "static/media/sunsetman.png": "/static/media/sunsetman.efc7114d8823df479d2e.png",
+    "static/media/climbing-image.png": "/static/media/climbing-image.ad9252da67e3989b9f34.png",
+    "static/media/standing_mountain.jpg": "/static/media/standing_mountain.93d90ebc0715a72cfbe1.jpg",
+    "static/media/verified.png": "/static/media/verified.a40260b148d1a05097bf.png",
+    "static/media/tesla_stock.jpg": "/static/media/tesla_stock.595371a50aa5ee8db7f1.jpg",
+    "static/media/trading_graph.png": "/static/media/trading_graph.f1a11a3abc9ed8356966.png",
+    "static/media/logo.png": "/static/media/logo.900847fa3ced4db1fa21.png",
+    "static/media/what-to-consider.png": "/static/media/what-to-consider.c15ee696d63fc14bfeb4.png",
+    "index.html": "/index.html",
+    "main.dcea4220.css.map": "/static/css/main.dcea4220.css.map",
+    "main.8efc0fe7.js.map": "/static/js/main.8efc0fe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcea4220.css",
+    "static/js/main.8efc0fe7.js"
+  ]
+}

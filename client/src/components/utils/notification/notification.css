@@ -1,0 +1,15 @@
+.errMsg{
+    color: red;
+    font-family: "Poppins";
+    font-size: larger;
+    letter-spacing: 1.3px;
+}
+
+.successMsg{
+    position: relative; top: 360px; left: 110px;
+    color: green;
+    font-family: "Poppins";
+    font-size: larger;
+    padding: 10px 0;
+    letter-spacing: 1.3px;
+}

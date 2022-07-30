@@ -1,0 +1,84 @@
+
+
+
+.regis_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://www.androidauthority.com/wp-content/uploads/2018/02/Space-X-falcon-heavy-space-rocket-Quad-HD-wallpapers-16.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.regis-form{
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+
+.regis-form h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.regis-form input{
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+
+.regis-form button{
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #2B52DF;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.regis-form button:hover{
+    background-color: #085EFF;
+}
+
+.regis-form p{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.registererror{
+
+    padding-bottom: 1em;
+    font-family: 'system-ui';
+    text-align: center;
+}
+
+
+
+
+.regis_page .row2 button:active {
+    transform: scale(0.98);
+}

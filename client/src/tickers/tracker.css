@@ -1,0 +1,14 @@
+.up{
+    color: green;
+}
+
+.down{
+    color:red;
+}
+
+.tracker-analytics{
+    position: relative;
+    bottom: 1.5em;
+    left: 5em;
+    font-size: 35px;
+}

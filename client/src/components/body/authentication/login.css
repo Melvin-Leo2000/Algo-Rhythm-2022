@@ -1,0 +1,99 @@
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url(https://wallpapercave.com/wp/wp1871773.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.login-form h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.form_div input{
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+
+
+.form_div button{
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #2B52DF;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+.form_div button:active {
+    transform: scale(0.98);
+}
+
+.form_div p{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.login_page .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+.login_page .row a{
+    color: white;
+}
+
+
+.login-form {
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+
+.regiserror{
+    padding-bottom: 1em;
+    font-family: 'system-ui';
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

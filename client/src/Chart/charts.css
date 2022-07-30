@@ -1,0 +1,11 @@
+.stock-title{
+    position: relative;
+    left: 400px;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.charts-plot{
+    display: flex;
+}

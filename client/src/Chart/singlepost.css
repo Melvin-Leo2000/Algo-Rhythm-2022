@@ -1,0 +1,9 @@
+.financenews {
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+  }
