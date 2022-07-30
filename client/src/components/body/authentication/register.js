@@ -72,7 +72,7 @@ function Register() {
                     value={cf_password} name="cf_password" onChange={handleChangeInput} />
                 
                 <div className='registererror'>{err && showErrMsg(err)}</div>
-                {success && showSuccessMsg(success)}
+                <div className='registererror'>{success && showSuccessMsg(success)}</div>
 
                     <button  type="submit">Register</button>
                     <p className='logg'>Have an account?<a href='/login'> Sign in!</a></p>
