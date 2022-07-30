@@ -10,9 +10,9 @@ Brandon Lau and Melvin Leo
 
 By providing equal access to tools for retail and institutional investors, we hope to level the playing field and create a fairer financial capital market system for economies. Through this, more retail investors would be incentivised to participate in the financial markets and stimulate growth for their respective economies.
 
-## Proposed Tech Stack
+## Tech Stack
 
-React.js (Front-End Development)
+React.js 
 
 Made use of both React classes and functional components, as well as react dependencies and hooks to build the client side. 
 
