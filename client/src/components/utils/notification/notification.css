@@ -6,7 +6,6 @@
 }
 
 .successMsg{
-    position: relative; top: 360px; left: 110px;
     color: green;
     font-family: "Poppins";
     font-size: larger;
