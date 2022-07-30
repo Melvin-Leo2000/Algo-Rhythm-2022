@@ -245,3 +245,7 @@ blockquote cite {
   .dark {
     color: #fff;
   }
+
+  .proj-repo{
+    color: white;
+  }
