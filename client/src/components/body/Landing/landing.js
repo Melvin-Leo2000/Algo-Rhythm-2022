@@ -80,7 +80,7 @@ export default function Landing() {
         <ul>
             <p>© Orbital 2022 Team Algo-Rhythm, ID 5432, Brandon Lau and Melvin Leo.</p>
             <br></br>
-            <p>Project's repository and acknowledgments can be found here</p>
+            <p>Project's repository and acknowledgments can be found <a  target="_blank" class='proj-repo'href='https://github.com/Melvin-Leo2000/Algo-Rhythm-2022'><u>here</u></a></p>
         </ul>
         </footer>
 
