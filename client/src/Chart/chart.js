@@ -176,10 +176,10 @@ function Chart() {
                 </table>
               <form className='rsi-input' onSubmit={rsiSubmit}>
                 <label>
-                <input  type="text" placeholder='Buy' value ={buy} onChange={(e) => setBuy(e.target.value)} />
+                <input  type="number" placeholder='Buy' value ={buy} onChange={(e) => setBuy(e.target.value)} required/>
                 </label>
                 <label>
-                <input className='chart-selloutput' type="text"  placeholder='Sell' value ={sell} onChange={(e) => setSell(e.target.value)} />
+                <input className='chart-selloutput' type="number"  placeholder='Sell' value ={sell} onChange={(e) => setSell(e.target.value)} required/>
                 </label>
                 
                 <div>
