@@ -123,7 +123,9 @@ function Chart() {
                 }
                </div>
               </form>
-              {err && showErrMsg(err)}
+              <div class='rsierror'>
+              <b>{err && showErrMsg(err)}</b>
+              </div>
       </div>
   
       }
@@ -142,40 +144,18 @@ function Chart() {
         e.preventDefault();
         let buyprice = Number(buy)
         let sellprice = Number(sell)
-
-        if (!buyprice || !sellprice){
-          setErr2('Please field in all fields!')
-          return
-        }
-        
-        if (isNaN(buyprice)){
-          setErr2('Invalid buy price')
-          return
-        }
-        
-
-        if (isNaN(sellprice)){
-          setErr2('Invalid sell price')
-          return
-        }
-
-
-        if (buy > sell){
-          setErr2('Buy price cannot be higher than sell price!')
+        if (buyprice > 100 || sellprice > 100){
+          setErr2('Values cannot be higher than 100')
           return 
         }
 
-        if (buy > 100){
-          setErr2('Buy Value cannot be higher than 100')
-          return 
-        }
-
-        if (sell > 100){
-          setErr2('Sell Value cannot be higher than 100')
-          return 
-        }
-        if (sell < 0 || buy < 0){
+        if (buyprice < 0 || sellprice < 0){
           setErr2('Values cannot be negative')
+          return 
+        }
+
+        if (buyprice > sellprice){
+          setErr2('Buy price cannot be higher than sell price!')
           return 
         }
         setErr2('')
@@ -211,7 +191,9 @@ function Chart() {
                 </div>
               </form>
                 
-              {err2 && showErrMsg(err2)}
+              <div class='rsierror'>
+              <b>{err2 && showErrMsg(err2)}</b>
+              </div> 
         </div>
     
         }
