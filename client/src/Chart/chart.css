@@ -57,6 +57,10 @@
   bottom: 100px;
 }
 
+.rsierror{
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
 
 .macdoutput-button{
   width: 14em;
