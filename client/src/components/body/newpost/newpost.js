@@ -32,9 +32,11 @@ export default function Newpost() {
     if(file.type !== 'image/jpeg' && file.type !== 'image/png')
     return setData({...data, err: "File format is incorrect." , success: ''})
 
-    if(!title) return setData({...data, err: "You forgot your title!" , success: ''})
+    if(!title.trim()) return setData({...data, err: "You forgot your title!" , success: ''})
 
-    if(!desc) return setData({...data, err: "Please share some inputs!" , success: ''})
+    if(!desc.trim()) return setData({...data, err: "Please share some inputs!" , success: ''})
+
+    if(desc.length > 100) return setData({...data, err: "Word length is too long!" , success: ''})
 
     if (file) {
       if(file.size > 1024 * 1024)
@@ -100,7 +102,7 @@ export default function Newpost() {
         </div>
         <div className="writeFormGroup">
           <textarea
-            placeholder="Share your thoughts about the market..."
+            placeholder="Share your thoughts about the market in a 100 words..."
             type="text"
             className="writeText"
             onChange={e=>setDesc(e.target.value)}
