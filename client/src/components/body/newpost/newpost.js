@@ -28,6 +28,9 @@ export default function Newpost() {
       desc,
     };
     if(!file) return setData({...data, err: "No files were uploaded!" , success: ''})
+    
+    if(file.type !== 'image/jpeg' && file.type !== 'image/png')
+    return setData({...data, err: "File format is incorrect." , success: ''})
 
     if(!title) return setData({...data, err: "You forgot your title!" , success: ''})
 
