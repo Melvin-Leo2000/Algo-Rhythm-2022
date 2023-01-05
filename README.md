@@ -1,6 +1,7 @@
 # NUS Orbital Project 2022 Algo-rhythm
 
-This repo contains our National University of Singapore CP2106: Independent Software Development Project
+This repo contains our National University of Singapore CP2106: Independent Software Development Project 
+Achievement: Apollo 11
 
 ## Project Member
 
@@ -16,8 +17,6 @@ React.js
 
 Made use of both React classes and functional components, as well as react dependencies and hooks to build the client side. 
 
-
-
 Express.js + Node.js
 
 Server side and utilized many npm packages, primarily using axios for API calls, cloudinary for storing images on cloud, plotly.js, and react-apexcharts in plotting our graphs.
@@ -31,3 +30,5 @@ Alpha Vantage API
 
 Heroku (Cloud hosting)
 Deployed to Heroku by connecting our github repo
+
+Link to our documentation for the whole project: https://docs.google.com/document/d/15At1BXNi3Q-vbjuvrX-TfSr8wWIrDjV80--jb7ApWcs/edit?usp=sharing
