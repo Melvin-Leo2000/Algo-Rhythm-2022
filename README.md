@@ -13,7 +13,7 @@ By providing equal access to tools for retail and institutional investors, we ho
 
 ## Tech Stack
 
-**React.js **
+**React.js**
 
 Made use of both React classes and functional components, as well as react dependencies and hooks to build the client side. 
 
