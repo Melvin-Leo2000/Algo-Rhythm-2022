@@ -34,4 +34,6 @@ Alpha Vantage API
 
 Deployed to Heroku by connecting our github repo
 
+**Disclamer: Since this is our first software development project, it may not be as fantastic, but it still worked so we're happy**
+
 Link to our documentation for the whole project: https://docs.google.com/document/d/15At1BXNi3Q-vbjuvrX-TfSr8wWIrDjV80--jb7ApWcs/edit?usp=sharing
